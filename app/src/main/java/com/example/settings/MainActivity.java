@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent();
-                intent.setComponent(new ComponentName("com.android.settings","com.android.settings.Settings$DataUsageSummaryActivity"));
-                startActivity(intent);
-                //startActivity(new Intent(Settings.ACTION_WIFI_SETTINGS));
+//                Intent intent = new Intent();
+//                intent.setComponent(new ComponentName("com.android.settings","com.android.settings.Settings$DataUsageSummaryActivity"));
+//                startActivity(intent);
+                startActivity(new Intent(Settings.ACTION_WIFI_SETTINGS));
 
 
             }
