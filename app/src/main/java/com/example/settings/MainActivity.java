@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         bluetooth = findViewById(R.id.bluetooth);
         wifi = findViewById(R.id.wifi);
         mobileData = findViewById(R.id.mobliedata);
-
         mobileData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
