@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button timeZone,bluetooth,wifi,mobileData;
+    Button timeZone,bluetooth,wifi,mobileData1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         timeZone = findViewById(R.id.timeZone);
         bluetooth = findViewById(R.id.bluetooth);
         wifi = findViewById(R.id.wifi);
-        mobileData = findViewById(R.id.mobliedata);
-        mobileData.setOnClickListener(new View.OnClickListener() {
+        mobileData1 = findViewById(R.id.mobliedata);
+        mobileData1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
